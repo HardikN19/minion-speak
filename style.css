@@ -1,0 +1,82 @@
+:root{
+    --primary:#ebbc30;
+}
+
+body{
+    background-color: #f1dc9c;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+
+
+}
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 2rem;
+    font-size: large;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    
+}
+
+#output{
+    width: 100%;
+    min-height: 10vh;
+    max-height: 15vh;
+    overflow: scroll;
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+
+
+#header{
+    font-size: 32px;
+    height:40px;
+    display: block;
+    text-align: center;
+    background-color: var(--primary);
+    padding-top:16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    width: 1500x;
+
+}
+
+.main{
+    
+    max-width: 500px;
+    display: block;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#btn-translate{
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    border-radius:4px;
+    border-radius: 0.5rem;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    width: 100%;
+}
+
